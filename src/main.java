@@ -5,5 +5,9 @@ public class main {
         Cat gud = new Cat();
         gud.makeSound();
         jesus.makeSound();
+
+        gud.eat("Vin");
+        gud.eat("Kiks");
+
     }
 }
