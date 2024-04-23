@@ -1,6 +1,8 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Dog extends Animal{
     @Override
-    public String makeSound() {
-        return null;
+    public void makeSound() {
+        System.out.println("Woof");
     }
 }
